@@ -31,11 +31,32 @@ TerminalBOT is a Telegram bot that allows users to interact with their system's 
 
 ## Getting Started
 
-1. **Clone the Repository**: Clone this repository to your local machine.
-2. **Set up Environment**: Make sure you have Python installed on your system along with the required dependencies. You can install dependencies using `pip install -r requirements.txt`.
+1. **Clone the Repository**: Clone the repository to your local machine.
+
+    ```bash
+    git clone https://github.com/your_username/TerminalBOT.git
+    ```
+
+2. **Set up Environment**: Ensure Python and required dependencies are installed.
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
 3. **Set up Telegram Bot**: Create a new bot on Telegram using BotFather and obtain your bot token.
+
 4. **Set Environment Variable**: Set your Telegram bot token as an environment variable named `TELEGRAM_BOT_TOKEN`.
-5. **Run the Bot**: Execute the `main()` function to start the bot. Now, your bot is up and running, ready to receive commands from Telegram users.
+
+    ```bash
+    export TELEGRAM_BOT_TOKEN="your_bot_token"
+    ```
+
+5. **Run the Bot**: Execute the `main()` function to start the bot. Your bot is now operational and ready to receive commands from Telegram users.
+
+    ```bash
+    python bot.py
+    ```
+
 
 ## Contributing
 
