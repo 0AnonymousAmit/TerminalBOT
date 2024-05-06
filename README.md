@@ -34,7 +34,7 @@ TerminalBOT is a Telegram bot that allows users to interact with their system's 
 1. **Clone the Repository**: Clone the repository to your local machine.
 
     ```bash
-    git clone https://github.com/your_username/TerminalBOT.git
+    git clone https://github.com/AnonAmit/TerminalBOT.git
     ```
 
 2. **Set up Environment**: Ensure Python and required dependencies are installed.
